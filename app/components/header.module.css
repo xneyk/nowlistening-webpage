@@ -4,13 +4,14 @@
    width: 100vw;
    padding: 15px;
    margin-bottom: 30px;
-}.container:hover{
-   cursor: pointer;
 }
 
 .logo{
    display: flex;
    flex-direction: row;
+   background: none;
+   border: none;
+   cursor: pointer;
 }
 
 .text{
