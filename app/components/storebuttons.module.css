@@ -1,0 +1,23 @@
+.container{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 15px;
+   gap: 10px;
+   background-color: var(--secondary-color);
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.textContainer{
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+}
+
+.upText{
+   font-size: 16px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
