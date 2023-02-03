@@ -25,7 +25,7 @@ export default function Home() {
     {
        firstTitle: 'Let your friends',
        secondTitle: `see what you're NowListening!`,
-       src: '/homeScreen.svg',
+       src: '/meetScreen.svg',
        alt: 'Meet Your Friends Example'
     }
  ];
