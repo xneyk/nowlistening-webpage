@@ -39,7 +39,7 @@ export default function Home() {
           <h2>Less filter,<br />more music.</h2>
           <p>
             {/* eslint-disable-next-line react/no-unescaped-entities */}
-            ¿Have you ever dreamed about a social network based on your musical tastes? NowListening is your place.<br /><br />A social network where you can only post if your are listening to music. Put your headphones and share what you're listening to now.
+            ¿Have you ever dreamed about a social network based on your musical tastes? NowListening is your place.<br /><br />A social network where you can only post if you are listening to music. Put on your headphones and share what you're listening to now.
           </p>
         </div>
         <div className={styles.storeButtonContaier}>
