@@ -1,5 +1,5 @@
+import { ToastContainer } from 'react-toastify'
 import './globals.css'
-import Header from './components/Header'
 
 export default function RootLayout({ children }) {
   return (
@@ -10,8 +10,8 @@ export default function RootLayout({ children }) {
       */}
       <head />
       <body>
-        <Header />
         {children}
+        <ToastContainer />
       </body>
     </html>
   )

@@ -49,15 +49,10 @@ h2 {
   font-size: 70px;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  white-space: nowrap;
-  overflow: hidden;
+h3 {
+  font-size: 54px;
 }
 
-h3,
 h4,
 p {
   font-size: 24px;
@@ -70,6 +65,10 @@ a {
 
 @media screen and (max-width: 920px) {
   h3 {
+    font-size: 42px;
+  }
+  
+  h4 {
     font-size: 34px;
   }
 }

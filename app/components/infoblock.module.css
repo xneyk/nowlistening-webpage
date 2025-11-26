@@ -1,0 +1,14 @@
+.rightAligned {
+   display: flex;
+   flex-direction: column;
+   max-width: 500px;
+   align-self: flex-end;
+   text-align: right;
+}
+
+.leftAligned {
+   display: flex;
+   flex-direction: column;
+   max-width: 500px;
+   text-align: left;
+}
