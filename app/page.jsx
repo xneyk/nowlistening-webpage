@@ -12,24 +12,24 @@ import InfoBlock from './components/InfoBlock'
 import BigInput from './components/BigInput'
 
 export default function Home() {
-
+  const basePath = 'nowlistening-webpage/'; // used for GitHub Pages Production Version
   const data = [
     {
        firstTitle: 'Post some pics while',
        secondTitle: `you're listening to music`,
-       src: '/homeScreen.svg',
+       src: `/${basePath}homeScreen.svg`,
        alt: 'Home Screen Example'
     },
     {
        firstTitle: 'Give your opinion',
        secondTitle: 'about music industry',
-       src: '/opinionScreen.svg',
+       src: `/${basePath}opinionScreen.svg`,
        alt: 'Opinions Screen Example'
     },
     {
        firstTitle: 'Let your friends',
        secondTitle: `see what you're NowListening!`,
-       src: '/meetScreen.svg',
+       src: `/${basePath}meetScreen.svg`,
        alt: 'Meet Your Friends Example'
     }
  ];
